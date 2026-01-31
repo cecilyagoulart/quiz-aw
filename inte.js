@@ -104,6 +104,60 @@ var bancoDeQuestoes = [
         ],
         correta: "Influenciam estilo, consumo e referências culturais"
     }
+     id: 11,
+    pergunta: "Por que personagens de séries como Sex and the City se tornaram referências de estilo ao longo dos anos?",
+    opcoes: [
+        "Por usarem uniformes iguais",
+        "Por apresentarem looks ousados e personalidade forte",
+        "Por seguirem tendências antigas",
+        "Por evitarem moda"
+    ],
+    correta: "Por apresentarem looks ousados e personalidade forte"
+},
+{
+    id: 12,
+    pergunta: "Séries com foco em amizades femininas costumam transmitir qual mensagem principal?",
+    opcoes: [
+        "Competição constante",
+        "A importância do apoio e da parceria",
+        "Isolamento social",
+        "Falta de comunicação"
+    ],
+    correta: "A importância do apoio e da parceria"
+},
+{
+    id: 13,
+    pergunta: "O que torna séries como Gossip Girl tão atraentes para o público jovem?",
+    opcoes: [
+        "Rotina simples e sem conflitos",
+        "Moda, drama e vida social intensa",
+        "Conteúdo acadêmico",
+        "Temas científicos"
+    ],
+    correta: "Moda, drama e vida social intensa"
+},
+{
+    id: 14,
+    pergunta: "Séries ambientadas em cidades famosas costumam despertar qual interesse no público?",
+    opcoes: [
+        "Curiosidade por estilos de vida e tendências urbanas",
+        "Desinteresse cultural",
+        "Foco apenas em esportes",
+        "Atenção exclusiva à história antiga"
+    ],
+    correta: "Curiosidade por estilos de vida e tendências urbanas"
+},
+{
+    id: 15,
+    pergunta: "Por que séries de lifestyle fazem tanto sucesso nas redes sociais?",
+    opcoes: [
+        "Porque não se conectam com a realidade",
+        "Porque geram identificação, inspiração e conteúdo visual",
+        "Porque são difíceis de entender",
+        "Porque evitam temas atuais"
+    ],
+    correta: "Porque geram identificação, inspiração e conteúdo visual"
+}
 ];
 
 var indiceAtual = 0;
@@ -188,3 +242,4 @@ function limparEstilos() {
 }
 
 window.onload = renderizarPergunta;
+
