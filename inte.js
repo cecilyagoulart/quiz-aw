@@ -104,6 +104,7 @@ var bancoDeQuestoes = [
         ],
         correta: "Influenciam estilo, consumo e referências culturais"
     }
+    {
      id: 11,
     pergunta: "Por que personagens de séries como Sex and the City se tornaram referências de estilo ao longo dos anos?",
     opcoes: [
@@ -242,4 +243,5 @@ function limparEstilos() {
 }
 
 window.onload = renderizarPergunta;
+
 
