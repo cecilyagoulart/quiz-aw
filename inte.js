@@ -158,7 +158,8 @@ var bancoDeQuestoes = [
         "Porque evitam temas atuais"
     ],
     correta: "Porque geram identificação, inspiração e conteúdo visual"
-};
+}
+];
 
 var indiceAtual = 0;
 var pontuacao = 0;
@@ -223,8 +224,7 @@ document.getElementById("quiz-form").onsubmit = function (event) {
             mostrarResultado();
         }
     }, 1000);
-}
-]; 
+};
 
 function mostrarResultado() {
     document.getElementById("quiz-container").innerHTML = "";
@@ -243,7 +243,6 @@ function limparEstilos() {
 }
 
 window.onload = renderizarPergunta;
-
 
 
 
