@@ -223,7 +223,8 @@ document.getElementById("quiz-form").onsubmit = function (event) {
             mostrarResultado();
         }
     }, 1000);
-};
+}
+]; 
 
 function mostrarResultado() {
     document.getElementById("quiz-container").innerHTML = "";
@@ -242,6 +243,7 @@ function limparEstilos() {
 }
 
 window.onload = renderizarPergunta;
+
 
 
 
